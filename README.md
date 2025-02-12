@@ -35,6 +35,7 @@ FROM TeslaSales
 GROUP BY period
 ORDER BY total_sales;
 
+![image](https://github.com/user-attachments/assets/f485c1da-4f1e-495f-bb7f-0a1fc0c6fd5b)
 
 
 Findings:
@@ -53,6 +54,9 @@ FROM TeslaSales
 GROUP BY country
 ORDER BY total_revenue DESC;
 
+![image](https://github.com/user-attachments/assets/13647ba3-1b4f-423b-9766-0243dcd5f57a)
+
+
 Findings:
 
 The United States had the highest sales revenue.
@@ -69,6 +73,9 @@ FROM TeslaSales
 GROUP BY model
 ORDER BY total_sales DESC;
 
+![image](https://github.com/user-attachments/assets/4a7a3f24-b681-458f-9eb9-d5545e81bd05)
+
+
 Findings:
 
 The best-selling Tesla model was Model X.
@@ -84,6 +91,7 @@ SELECT version, SUM(price) AS total_revenue
 FROM TeslaSales
 GROUP BY version
 ORDER BY total_revenue DESC;
+
 
 Findings:
 
