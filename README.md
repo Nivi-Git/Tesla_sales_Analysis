@@ -129,7 +129,6 @@ The dataset was also visualized in Power BI, showcasing:
 
 * Profitability by Model (Stacked Column Chart)
 
-#### Dashbarod Screenshots
 
 
 
