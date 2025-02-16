@@ -32,11 +32,11 @@ ORDER BY total_sales;
 ![image](https://github.com/user-attachments/assets/f485c1da-4f1e-495f-bb7f-0a1fc0c6fd5b)
 
 
-Findings:
+#### Findings:
 
-The highest number of Tesla sales occurred in 2016-04.
+* The highest number of Tesla sales occurred in 2016-04.
 
-The slowest sales month was 2017-10.
+* The slowest sales month was 2017-10.
 
 
 ### 3.2 Country-Wise Sales Performance
@@ -53,11 +53,11 @@ ORDER BY total_revenue DESC;
 ![image](https://github.com/user-attachments/assets/13647ba3-1b4f-423b-9766-0243dcd5f57a)
 
 
-Findings:
+#### Findings:
 
-The United States had the highest sales revenue.
+* The United States had the highest sales revenue.
 
-The lowest revenue came from Australia.
+* The lowest revenue came from Australia.
 
 
 ### 3.3 Most Popular Tesla Model
@@ -74,11 +74,11 @@ ORDER BY total_sales DESC;
 ![image](https://github.com/user-attachments/assets/4a7a3f24-b681-458f-9eb9-d5545e81bd05)
 
 
-Findings:
+#### Findings:
 
-The best-selling Tesla model was Model X.
+* The best-selling Tesla model was Model X.
 
-The least popular model was Model S.
+* The least popular model was Model S.
 
 
 ### 3.4 Tesla Version with Highest Revenue
@@ -92,11 +92,11 @@ GROUP BY version
 ORDER BY total_revenue DESC;
 ```
 
-Findings:
+#### Findings:
 
-The P90D version contributed the highest revenue.
+* The P90D version contributed the highest revenue.
 
-The 90D AWD version had the least revenue.
+* The 90D AWD version had the least revenue.
 
 
 ### 3.5 Profitability Analysis
@@ -110,11 +110,11 @@ GROUP BY model
 ORDER BY total_gross_profit DESC;
 ```
 
-Findings:
+#### Findings:
 
-The most profitable Tesla model was Model X.
+* The most profitable Tesla model was Model X.
 
-The least profitable model was Model S.
+* The least profitable model was Model S.
 
 
 ## 4. Power BI Visualizations
@@ -129,14 +129,17 @@ The dataset was also visualized in Power BI, showcasing:
 
 * Profitability by Model (Stacked Column Chart)
 
+#### Dashbarod Screenshots
+
+
 
 
 ## 5. Conclusion
 
-Tesla's highest revenue comes from USA.
+* Tesla's highest revenue comes from USA.
 
-Model X is the most popular model based on sales count.
+* Model X is the most popular model based on sales count.
 
-Seasonal trends impact Tesla sales, with peaks in 2016-04.
+* Seasonal trends impact Tesla sales, with peaks in 2016-04.
 
-Tesla should focus on improving sales in Australia.
+* Tesla should focus on improving sales in Australia.
