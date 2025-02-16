@@ -121,13 +121,13 @@ The least profitable model was Model S.
 
 The dataset was also visualized in Power BI, showcasing:
 
-Sales Trends Over Time (Line Chart)
+* Sales Trends Over Time (Line Chart)
 
-Country-Wise Sales Revenue (Bar Chart)
+* Country-Wise Sales Revenue (Bar Chart)
 
-Model Popularity (Pie Chart)
+* Model Popularity (Pie Chart)
 
-Profitability by Model (Stacked Column Chart)
+* Profitability by Model (Stacked Column Chart)
 
 
 
